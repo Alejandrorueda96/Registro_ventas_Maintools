@@ -1,7 +1,9 @@
 h1.titulo_venta {
     border-style: solid;
+    text-align: center;
 }
 
 table.borde_tabla{
     border-style: solid;
+    margin: 10px auto 10px auto;
 }
