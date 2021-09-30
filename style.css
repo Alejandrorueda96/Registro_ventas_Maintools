@@ -7,3 +7,7 @@ table.borde_tabla{
     border-style: solid;
     margin: 10px auto 10px auto;
 }
+
+tr.color_fondo{
+    background-color:deepskyblue;
+}
