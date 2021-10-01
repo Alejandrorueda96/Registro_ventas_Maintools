@@ -3,11 +3,21 @@ h1.titulo_venta {
     text-align: center;
 }
 
+
+
 table.borde_tabla{
     border-style: solid;
     margin: 10px auto 10px auto;
 }
 
 tr.color_fondo{
-    background-color:deepskyblue;
+    background-color:deepskyblue;  
+}
+th{
+    border-bottom: 2px solid black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
 }
