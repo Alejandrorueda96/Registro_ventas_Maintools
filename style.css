@@ -1,6 +1,10 @@
 h1.titulo_venta {
     border-style: solid;
     text-align: center;
+    padding: 2px;
+    margin: 2px 100px 2px 100px;
+    border-color: lightseagreen;
+    color: lightseagreen;
 }
 
 
@@ -30,11 +34,11 @@ nav{
     width: 100%;
 }
 img.logo{
-    padding: 0 50px;
+    padding: 0 100px;
 }
 nav ul{
     float: right;
-    margin-right: 50px;
+    margin-right: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -55,4 +59,9 @@ nav ul li a{
 a.active,a:hover{
     background: gray;
     transition: 0.5s;
+}
+
+div.boton{
+    float: right;
+    margin-right: 100px;
 }
