@@ -95,4 +95,9 @@ td.detalles{
 
 table.info{
     border-collapse: collapse;
+    margin-left: 100px;
+}
+
+table.productos{
+    margin-left: 50px;
 }
