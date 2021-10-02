@@ -85,3 +85,14 @@ div.scroll{
 tr.filas{
     background-color: skyblue;
 }
+
+td.detalles{
+ 
+    border: 1px solid;
+    padding: 0;
+    margin: 0;
+}
+
+table.info{
+    border-collapse: collapse;
+}
