@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <header>
@@ -20,6 +21,8 @@
 
     </header>
     <body>
+        
+        
         <div>
             <h1 class="titulo_venta">Registro de ventas</h1>
         </div>
@@ -27,30 +30,35 @@
         <div class="scroll">
             <table class="borde_tabla">
                 <tr class="color_fondo">
+                    <th></th>
                     <th scope="col">Venta</th>
                     <th scope="col">Cliente</th>
                     <th scope="col">Fecha</th>
                 </tr>
 
                 <tr>
+                    <td><input type="checkbox" id="checkme"/></td>
                     <td>Venta1</td>
                     <td>Cliente1</td>
                     <td>dd/mm/aaaa</td>
                 </tr>
 
                 <tr>
+                    <td><input type="checkbox"></td>
                     <td>Venta2</td>
                     <td>Cliente2</td>
                     <td>dd/mm/aaaa</td>
                 </tr>
 
                 <tr>
+                    <td><input type="checkbox"></td>
                     <td>Venta3</td>
                     <td>Cliente3</td>
                     <td>dd/mm/aaaa</td>
                 </tr>
 
                 <tr>
+                    <td><input type="checkbox"></td>
                     <td>Venta4</td>
                     <td>Cliente4</td>
                     <td>dd/mm/aaaa</td>
@@ -59,8 +67,22 @@
         </div>
 
         <div class="boton">
-            <button>Detalles</button>
+            <input type="submit" name="sendNewSms" class="inputButton" id="sendNewSms" value=" Send "  disabled/>
         </div>
+        <script>
+            
+            var checker = document.getElementById('checkme');
+            var sendbtn = document.getElementById('sendNewSms');
+            checker.onchange = function() {
+                if(checker.ariaChecked = true)
+                sendbtn.disabled = false;
+                else if(checker.ariaChecked = false)
+                sendbtn.disabled = true;
+            }
+        
+           
+
+        </script>
 
     </body>
     <footer></footer>
