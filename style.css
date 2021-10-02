@@ -89,15 +89,29 @@ tr.filas{
 td.detalles{
  
     border: 1px solid;
-    padding: 0;
+    padding: 1px 5px 1px 5px;
     margin: 0;
 }
 
 table.info{
     border-collapse: collapse;
-    margin-left: 100px;
+    margin-left: 120px;
+    margin-top: 10px;
 }
 
 table.productos{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 350px;
+}
+
+th.productos{
+    padding: 1px 5px 1px 5px;
+}
+
+div.detalles{
+    padding: 1px 5px 1px 5px;
     margin-left: 50px;
+    margin-top: 70px;
+    
 }
