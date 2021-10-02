@@ -37,7 +37,7 @@
                 </tr>
 
                 <tr>
-                    <td><input type="checkbox" id="checkme"/></td>
+                    <td><input type="checkbox" id="checkme" onchange="doalert(this)"/></td>
                     <td>Venta1</td>
                     <td>Cliente1</td>
                     <td>dd/mm/aaaa</td>
@@ -67,18 +67,19 @@
         </div>
 
         <div class="boton">
-            <input type="submit" name="sendNewSms" class="inputButton" id="sendNewSms" value=" Send "  disabled/>
+            <input type="submit" name="sendNewSms" class="inputButton" id="sendNewSms" value=" Detalles " disabled/>
         </div>
         <script>
             
-            var checker = document.getElementById('checkme');
-            var sendbtn = document.getElementById('sendNewSms');
-            checker.onchange = function() {
-                if(checker.ariaChecked = true)
-                sendbtn.disabled = false;
-                else if(checker.ariaChecked = false)
-                sendbtn.disabled = true;
+            function doalert(checkboxElem) {
+            if (checkboxElem.checked) {
+            
+            document.getElementById('sendNewSms').disabled = false;
+            } else {
+            
+            document.getElementById('sendNewSms').disabled = true;
             }
+            }           
         
            
 
