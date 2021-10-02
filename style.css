@@ -11,7 +11,7 @@ h1.titulo_venta {
 
 table.borde_tabla{
     border-style: solid;
-    border-color: dodgerblue;
+    border-color:#2980B9;
     margin: 10px auto 10px auto;
     width: 600px;
     
@@ -19,7 +19,7 @@ table.borde_tabla{
 }
 
 tr.color_fondo{
-    background-color:dodgerblue;  
+    background-color:#2980B9;  
     font-size: larger;
     color: white;
 }
@@ -83,7 +83,12 @@ div.scroll{
 }
 
 tr.filas{
-    background-color: skyblue;
+    background-color: #D4E6F1;
+    color: #154360;
+}
+
+tr.filasdos{
+    color: #154360;
 }
 
 td.detalles{
@@ -116,6 +121,6 @@ div.detalles{
 }
 
 input.detalles{
-    padding: 1px 5px 1px 5px;
+    padding: 1px 10px 1px 10px;
     margin-bottom: 5px;
 }
