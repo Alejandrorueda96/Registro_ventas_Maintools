@@ -112,6 +112,10 @@ th.productos{
 div.detalles{
     padding: 1px 5px 1px 5px;
     margin-left: 50px;
-    margin-top: 70px;
-    
+    margin-top: 50px;   
+}
+
+input.detalles{
+    padding: 1px 5px 1px 5px;
+    margin-bottom: 5px;
 }
